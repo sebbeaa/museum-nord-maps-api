@@ -6,7 +6,7 @@ process.env.NODE_ENV !== 'production' && dotenv.config();
 // import {createClient} from 'https://esm.sh/@sanity/client'
 
 export const previewClient = createClient({
-  projectId: 's0874vj3',
+  projectId: null,//from .env,
   dataset: 'production',
   useCdn: false,
   perspective: 'previewDrafts',

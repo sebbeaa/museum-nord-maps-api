@@ -15,7 +15,7 @@ export const previewClient = createClient({
   apiVersion: '2021-03-25',
 });
 export const productionClient = createClient({
-  projectId: 's0874vj3',
+  projectId: null, //from .env ,
   dataset: 'production',
   useCdn: true,
   perspective: 'published',
